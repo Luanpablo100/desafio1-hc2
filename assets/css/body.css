@@ -1,0 +1,184 @@
+body {
+    width: 100vw;
+}
+
+h1 {
+    color: rgb(43, 0, 83);
+    margin-left: 20px;
+}
+
+section {
+    width: 100vw;
+    margin-bottom: 50px;
+}
+
+#carrosel-container {
+    justify-content: center;
+}
+
+#carrosel img{
+    width: 100%;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    cursor: pointer;
+    width: 30%;
+    background-color: blueviolet;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transition: .3s;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.562);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card button {
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    transition-duration: .3s;
+    background-color: rgb(255, 68, 0);
+
+}
+
+.card button:hover {
+    color: white;
+}
+
+#offers {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.offer {
+    cursor: pointer;
+    width: 20%;
+    background-color: rgb(43, 0, 83);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.offer strong{
+    font-size: 26px;
+    padding: 5px;
+}
+
+.offer p{
+    font-size: 16px;
+    padding: 5px;
+}
+.offer img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.add-cart {
+    height: 0;
+    display: flex;
+    overflow: hidden;
+    bottom: 0;
+    justify-content: center;
+    transition-delay: .2s;
+    transition-duration: .3s;
+}
+
+.add-cart.active{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.offer button {
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    transition-duration: .3s;
+    background-color: coral;
+    align-self: center;
+}
+
+.offer button:hover {
+    background-color: rgb(248, 99, 45);
+}
+
+
+
+
+
+
+
+
+#form-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-news h1 {
+    color: blueviolet;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+#form-news form {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    /* background-color: blue; */
+    border-radius: 25px;
+    box-shadow: 0px 0px 100px rgba(128, 128, 128, 0.137);
+}
+#form-news form label {
+    color: black;
+    margin-top: 10px;
+}
+
+#form-news form input {
+    width: 340px;
+    color: black;
+    padding: 5px;
+    border-bottom: blueviolet 2px solid;
+}
+
+#form-news form button {
+    background-color: blueviolet;
+    width: 50%;
+    align-self: center;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+#form-news form button:hover {
+    transition-duration: .3s;
+    background-color: rgb(112, 13, 204);
+
+}
+
